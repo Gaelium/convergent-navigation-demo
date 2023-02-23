@@ -33,7 +33,6 @@ export default function Mammals(props) {
 }
 
 export function MammalNavigator(props) {
-  console.log(props);
   return (
     <Stack.Navigator initialRouteName="Home">
       <Stack.Screen
@@ -84,7 +83,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   button: {
-    backgroundColor: "#7141f2",
+    backgroundColor: "#3498db",
     width: "60%",
     height: "10%",
     marginVertical: 20,
